@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/purple_200"
+
+    tools:context=".SearchFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="404dp"
+        android:layout_height="555dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Mustafa Kemal Atatürk, 1881 yılında Selanik'te doğmuş ve 1938 yılında İstanbul'da hayatını kaybetmiş bir Türk devlet adamı ve askeri liderdir. Atatürk, Türkiye Cumhuriyeti'nin kurucusu ve ilk Cumhurbaşkanı olarak tarihe geçmiştir. İlk öğrenimini Selanik'te tamamladıktan sonra Harp Okulu'na girmiş ve askeri kariyerine başlamıştır. I. Dünya Savaşı'nda Osmanlı İmparatorluğu'nun yanında görev almış ve çeşitli cephelerde savaşmıştır. Kurtuluş Savaşı sırasında Türk milletini bağımsızlık mücadelesine önderlik eden Atatürk, Anadolu'da Milli Mücadele'yi örgütlemiştir. 1923 yılında Türkiye Cumhuriyeti'nin ilan edilmesiyle Atatürk, cumhuriyetin ilk Cumhurbaşkanı olmuştur. Atatürk, Türkiye'yi çağdaş bir ulus devleti haline getirmek için bir dizi devrim gerçekleştirmiştir. Bu devrimler arasında laiklik, eğitimde reform, kadınlara seçme ve seçilme hakkı gibi önemli adımlar yer almaktadır. Atatürk, Türk toplumunu çağdaş değerlerle buluşturmayı ve Batılılaşmayı hedeflemiştir. Ayrıca, Türk alfabesinin Latin alfabesine geçirilmesi de Atatürk'ün gerçekleştirdiği önemli bir yenilik olarak kabul edilmektedir. Atatürk, ekonomi, sanayi ve tarım gibi alanlarda da kalkınma projeleri başlatmış ve Türkiye'nin modernleşmesine katkıda bulunmuştur. Ölümünden sonra bile Atatürk'ün fikirleri ve mirası, Türk toplumunda derin bir etki bırakmış ve onun önderliğinde kurulan cumhuriyetin değerleri bugün hala korunmaktadır."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="227dp"
+        android:layout_height="114dp"
+        android:src="@drawable/atat_rk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
